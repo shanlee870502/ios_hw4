@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45436FE0256D57C100B44418 /* Mood_RecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45436FDF256D57C100B44418 /* Mood_RecorderApp.swift */; };
+		45436FE2256D57C100B44418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45436FE1256D57C100B44418 /* ContentView.swift */; };
+		45436FE4256D57C200B44418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45436FE3256D57C200B44418 /* Assets.xcassets */; };
+		45436FE7256D57C200B44418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45436FE6256D57C200B44418 /* Preview Assets.xcassets */; };
+		45436FF3256D5A2300B44418 /* MoodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45436FF2256D5A2300B44418 /* MoodData.swift */; };
+		45436FF8256D5B5400B44418 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45436FF7256D5B5400B44418 /* Mood.swift */; };
+		45436FFC256D603B00B44418 /* MoodRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45436FFB256D603B00B44418 /* MoodRow.swift */; };
+		45437000256D6AC300B44418 /* MoodEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45436FFF256D6AC300B44418 /* MoodEditor.swift */; };
+		552F90D9256E59D100B6F924 /* CircleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552F90D8256E59D100B6F924 /* CircleChartView.swift */; };
+		55CCFEFB256E359900D06F5C /* MoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCFEFA256E359900D06F5C /* MoodListView.swift */; };
+		55CCFEFF256E3A6C00D06F5C /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CCFEFE256E3A6C00D06F5C /* PieChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45436FDC256D57C100B44418 /* Mood Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mood Recorder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45436FDF256D57C100B44418 /* Mood_RecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_RecorderApp.swift; sourceTree = "<group>"; };
+		45436FE1256D57C100B44418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45436FE3256D57C200B44418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45436FE6256D57C200B44418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45436FE8256D57C200B44418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45436FF2256D5A2300B44418 /* MoodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodData.swift; sourceTree = "<group>"; };
+		45436FF7256D5B5400B44418 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		45436FFB256D603B00B44418 /* MoodRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRow.swift; sourceTree = "<group>"; };
+		45436FFF256D6AC300B44418 /* MoodEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEditor.swift; sourceTree = "<group>"; };
+		552F90D8256E59D100B6F924 /* CircleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartView.swift; sourceTree = "<group>"; };
+		55CCFEFA256E359900D06F5C /* MoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodListView.swift; sourceTree = "<group>"; };
+		55CCFEFE256E3A6C00D06F5C /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45436FD9256D57C100B44418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45436FD3256D57C100B44418 = {
+			isa = PBXGroup;
+			children = (
+				45436FDE256D57C100B44418 /* Mood Recorder */,
+				45436FDD256D57C100B44418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45436FDD256D57C100B44418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45436FDC256D57C100B44418 /* Mood Recorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45436FDE256D57C100B44418 /* Mood Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				552F90D8256E59D100B6F924 /* CircleChartView.swift */,
+				55CCFEFE256E3A6C00D06F5C /* PieChartView.swift */,
+				55CCFEFA256E359900D06F5C /* MoodListView.swift */,
+				45436FFF256D6AC300B44418 /* MoodEditor.swift */,
+				45436FFB256D603B00B44418 /* MoodRow.swift */,
+				45436FF7256D5B5400B44418 /* Mood.swift */,
+				45436FF2256D5A2300B44418 /* MoodData.swift */,
+				45436FDF256D57C100B44418 /* Mood_RecorderApp.swift */,
+				45436FE1256D57C100B44418 /* ContentView.swift */,
+				45436FE3256D57C200B44418 /* Assets.xcassets */,
+				45436FE8256D57C200B44418 /* Info.plist */,
+				45436FE5256D57C200B44418 /* Preview Content */,
+			);
+			path = "Mood Recorder";
+			sourceTree = "<group>";
+		};
+		45436FE5256D57C200B44418 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45436FE6256D57C200B44418 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45436FDB256D57C100B44418 /* Mood Recorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45436FEB256D57C200B44418 /* Build configuration list for PBXNativeTarget "Mood Recorder" */;
+			buildPhases = (
+				45436FD8256D57C100B44418 /* Sources */,
+				45436FD9256D57C100B44418 /* Frameworks */,
+				45436FDA256D57C100B44418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mood Recorder";
+			productName = "Mood Recorder";
+			productReference = 45436FDC256D57C100B44418 /* Mood Recorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45436FD4256D57C100B44418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					45436FDB256D57C100B44418 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 45436FD7256D57C100B44418 /* Build configuration list for PBXProject "Mood Recorder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45436FD3256D57C100B44418;
+			productRefGroup = 45436FDD256D57C100B44418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45436FDB256D57C100B44418 /* Mood Recorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45436FDA256D57C100B44418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45436FE7256D57C200B44418 /* Preview Assets.xcassets in Resources */,
+				45436FE4256D57C200B44418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45436FD8256D57C100B44418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CCFEFF256E3A6C00D06F5C /* PieChartView.swift in Sources */,
+				55CCFEFB256E359900D06F5C /* MoodListView.swift in Sources */,
+				552F90D9256E59D100B6F924 /* CircleChartView.swift in Sources */,
+				45436FF8256D5B5400B44418 /* Mood.swift in Sources */,
+				45436FE2256D57C100B44418 /* ContentView.swift in Sources */,
+				45436FF3256D5A2300B44418 /* MoodData.swift in Sources */,
+				45436FFC256D603B00B44418 /* MoodRow.swift in Sources */,
+				45436FE0256D57C100B44418 /* Mood_RecorderApp.swift in Sources */,
+				45437000256D6AC300B44418 /* MoodEditor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45436FE9256D57C200B44418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45436FEA256D57C200B44418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45436FEC256D57C200B44418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mood Recorder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mood Recorder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnson.Mood-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45436FED256D57C200B44418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mood Recorder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mood Recorder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnson.Mood-Recorder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45436FD7256D57C100B44418 /* Build configuration list for PBXProject "Mood Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45436FE9256D57C200B44418 /* Debug */,
+				45436FEA256D57C200B44418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45436FEB256D57C200B44418 /* Build configuration list for PBXNativeTarget "Mood Recorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45436FEC256D57C200B44418 /* Debug */,
+				45436FED256D57C200B44418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45436FD4256D57C100B44418 /* Project object */;
+}
